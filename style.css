@@ -1,0 +1,73 @@
+/*Global styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p{
+    font-size: 2rem;
+}
+h2{
+    font-size: 4.8rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4,h5{
+    font-size: 2.8rem;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+/* Nav and Hero section*/
+.main-head{
+    background-color: #131c27;
+    color: antiquewhite;
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#logo{
+    flex: 2 1 40rem;
+
+}
+.hero{
+    min-height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),transparent),url('/img/landing-page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
