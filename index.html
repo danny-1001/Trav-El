@@ -4,20 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="The only travel website for Kryptonians"/>
+<meta name="Description" content="A travel website for Kryptonians"/>
 <meta name="robots" content="index,follow"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="./icons/launch.svg">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 <title>Trav - El | Travel Agency</title>
 </head>
 <body>
     <header class="main-head">
         <nav>
-            <h1 id="logo">Trav-El</h1>
+            <h1 id="logo">Trav - El</h1>
             <ul>
                 <li> <a href="#locations">Locations</a></li>
                 <li><a href="#benefits">Benefits</a></li>
@@ -28,10 +31,79 @@
     </header>
     <section class="hero">
         <h2>Travel Beyond Limits</h2>
-        <h3>Start your travel at an affordable price with Trav-El 
+        <h3>Start your travel at a kind of affordable price with Trav-El 
+            <br/>The only travel company that will treat you like a plant. 
             <br/>Contact us now bellow. </h3>
-        <button>Book Now</button>
+        <button class="btn-hero" >Book Now</button>
     </section>
+    <section id="locations">
+        <header class="locations-head">
+            <h2>The Perfect Travelling Experience</h2>
+            <h3>We cover everything from picking the perfect hotel, <br/> to your perfect space craft</h3>
+            <img src="/img/cloud.png" class="moving-cloud-1 cloud"/>
+            <img src="/img/cloud.png" class="moving-cloud-2 cloud"/>
+        </header>
+    </section>
+    <section id="benefits">
+        <header class="benefits-head">
+            <h2>The Perfect Travel</h2>
+        <h3>You'll never be too far from the sun</h3>
+        </header>
+        <div class="cards">
+            <div class="card">
+                <div class="card-icon">
+                    <img src="/icons/route-solid.svg" alt="">
+                </div>
+                    <h4>Travel</h4>
+                    <p>Travel over 250 planets</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="/icons/bed-solid.svg" alt="">
+                </div>
+                    <h4>Hotel</h4>
+                    <p>Hotel located right by the sun</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="/icons/plane-departure-solid.svg" alt="">
+                </div>    
+                    <h4>Fly</h4>
+                    <p>Complimentary MiracleGro</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="form-wrapper">
+                <header class="form-head">
+                    <h2>Contact Us</h2>
+                </header>
+            
+            <form action="https://formspree.io/f/xoqyeyvy" method="POST">
+                <div class="name-form">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="email-form">
+                    <label for="email">Email:</label>
+                    <input type="email" required name="_replyto" />
+                </div>
+                <button class="contact-btn" type="submit" value="send">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <h5> Trav-El &copy; </h5>
+            <ul>
+                <li><a href="https://dannyavilesportfolio.netlify.app/">Portfolio</a></li>
+                <li><a href="https://linkedin.com/in/danny-aviles-a1730a178">Linkedin</a></li>
+                <li><a href="https://github.com/danny-1001">Github</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
