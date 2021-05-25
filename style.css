@@ -88,7 +88,8 @@ nav ul{
 }
 .Home{
     min-height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.8),transparent),url(/img/pexels-oliver-sjöström-1020016.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7),transparent),
+    url(https://images.pexels.com/photos/1020016/pexels-photo-1020016.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,8 +99,6 @@ nav ul{
     align-items: center;
     justify-content: center;
     text-align: center;
-
-
 }
 .Home h3{
     padding: 5rem;
@@ -233,6 +232,7 @@ nav ul{
 .name-form, .email-form{
     padding: 3rem;
     text-align: center;
+    
 }
 .form-wrapper label{
     margin: 0rem 3rem;
