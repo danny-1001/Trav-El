@@ -81,7 +81,7 @@ nav ul{
 }
 #logo{
     flex: 4 2 40rem;
-    font-family: 'Bangers', cursive;
+    font-family: 'Odibee Sans', cursive;
     font-size: 4rem;
     font-weight: 400;
 
@@ -264,6 +264,7 @@ footer{
 }
 footer h5{
     flex: 1 1 40rem;
+    font-family: 'Odibee Sans', cursive;
    
 }
 footer ul{
