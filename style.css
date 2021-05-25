@@ -38,7 +38,7 @@ a{
 }
 button{
     padding: 2rem 4.5rem;
-    background: #2F1D3B;
+    background: #022601;
     opacity: 90%;
     border: none;
     color: white;
@@ -47,17 +47,16 @@ button{
     /* border-radius: 5%; */
     font-size: 2rem;
 }
-/* .btn-hero{
-    transition: all 0.5s ease;
-    animation: buttonAnimation 2s infinite alternate 2s;
-} */
+.btn-Home{
+    border-radius: 15px;
+}
 button:hover{
-    background: rgba(8, 77, 161, 0.8);
+    background: #73003F;
     font-size: 2rem;
 }
 /* Nav and Hero section*/
 .main-head{
-    background-color: #2F1D3B;
+    background-color: #022601;
     color: white;
     top: 0px;
     position: sticky;
@@ -87,9 +86,9 @@ nav ul{
     font-weight: 400;
 
 }
-.hero{
+.Home{
     min-height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),transparent),url('/img/purpletree.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8),transparent),url('/img/pexels-oliver-sjöström-1020016.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -102,14 +101,14 @@ nav ul{
 
 
 }
-.hero h3{
+.Home h3{
     padding: 5rem;
 }
 
 /*locations sections*/
 #locations{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.7),transparent), 
     url(/img/pexels-roberto-nickson-2559941.jpg);
     background-size: cover;
     background-position: center;
@@ -163,7 +162,7 @@ nav ul{
 
 /* BENEFITS*/
 .benefits-head{
-    background: rgba(8, 77, 161, 0.8);
+    background: #73003F;
     padding: 3rem;
     min-height: 30vh;
     display: flex;
@@ -203,7 +202,7 @@ nav ul{
     
 }
 .card-icon{
-    background: rgba(8, 77, 161, 0.8);
+    background: #6d2339;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -248,10 +247,11 @@ nav ul{
 .form-wrapper input{
     padding: 1rem 3rem;
 }
-footer{
-    color: white;
-    background: #2F1D3B;
 
+
+footer{
+    background: #022601;
+    color: white;
 }
 .footer-wrapper{
     display: flex;
@@ -264,6 +264,7 @@ footer{
 }
 footer h5{
     flex: 1 1 40rem;
+   
 }
 footer ul{
     display: flex;
@@ -274,8 +275,8 @@ footer ul{
 }
 footer ul li a {
     text-decoration: underline;
-}
-/*media query*/
+} 
+/*media query
 @media  screen and (max-width: 932px) {
     html{
         font-size: 45%;
