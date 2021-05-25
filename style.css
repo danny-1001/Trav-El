@@ -133,17 +133,18 @@ nav ul{
     top: 0%;
     right: 0%;
     pointer-events: none;
+    height: 50vh;
 
 }
 .moving-cloud-1{
     animation: cloudAnimation  3s infinite alternate ease-in-out;
+    
 
 }
 .moving-cloud-2{
-    top: 20%;
-    z-index: -1;
+    z-index: ;
     opacity: 0.8;
-    animation: cloudAnimation  5s infinite alternate ease-in-out;
+    animation: cloudAnimation  2s infinite alternate ease-in-out;
 }
 
 
@@ -278,7 +279,7 @@ footer ul li a {
     text-decoration: underline;
 } 
 /* media query */
-@media  screen and (max-width: 932px) {
+@media  screen and (max-width: 700px) {
     html{
         font-size: 45%;
     }
@@ -289,7 +290,7 @@ footer ul li a {
         padding: 2rem;
     }
     .cloud{
-        height: 40rem;
+        height: 30rem;
         position: absolute;
         top: 0%;
         right: 0%;
@@ -297,11 +298,11 @@ footer ul li a {
     
     }
     .moving-cloud-1{
-        z-index: -1;
+        z-index: 1;
 
     }
     .moving-cloud-2{
-        z-index: -2;
+        z-index: 2;
     }
     .locations-head h3{
         background: rgba(19, 28, 39, 0.8);
