@@ -89,7 +89,7 @@ nav ul{
 .Home{
     min-height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7),transparent),
-    url(https://images.pexels.com/photos/1020016/pexels-photo-1020016.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    url(/img/pexels-michael-block-3225531.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
